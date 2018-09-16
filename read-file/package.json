@@ -1,0 +1,15 @@
+{
+  "name": "read-file",
+  "version": "1.0.0",
+  "description": "Read the file data from the given location",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "fs"
+  ],
+  "author": "Jitendra Kumar Chauhan (951029)",
+  "license": "ISC"
+}

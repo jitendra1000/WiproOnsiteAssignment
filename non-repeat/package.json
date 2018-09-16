@@ -1,0 +1,14 @@
+{
+  "name": "non-repeat",
+  "version": "1.0.0",
+  "description": "Write a Nodejs server that serves as a RESTFUL  API that accepts a String as an input name and returns the first non-repeating character in the String",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jitendra Kumar Chauhan (951029)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
