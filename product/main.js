@@ -8,8 +8,7 @@ app.get("/product/:num1/:num2", function(req, res) {
   a = _.toNumber(a);
   b = _.toNumber(b);
   p = a * b;
-  if (!_.isNaN(p)) res.write(`Product of both param: ${p}`);
-  else res.write(`Please enter valid number`);
-  res.end();
+  if (!_.isNaN(p)) res.send(JSON.stringify(p));
+  else res.send(`Please enter valid number`);
 });
 app.listen(3001);
